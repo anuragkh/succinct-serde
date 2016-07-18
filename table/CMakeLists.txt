@@ -12,3 +12,4 @@ file(MAKE_DIRECTORY ${EXECUTABLE_OUTPUT_PATH})
 
 include_directories(src/)
 add_executable(sertab src/serialize_table.cc)
+add_executable(sertab src/serialize_queries.cc)
